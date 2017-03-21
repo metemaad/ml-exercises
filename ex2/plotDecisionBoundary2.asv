@@ -1,0 +1,11 @@
+function plotDecisionBoundary2(theta, X, y)
+hold on
+
+A=zeros(1000,1000);
+for i=1:1:1000 
+    for j=1:1:1000 
+        A(i,j)=sigmoid(
+        
+hold off
+
+end

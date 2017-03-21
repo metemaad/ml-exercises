@@ -1,0 +1,7 @@
+function bundryplot(theta)
+
+[m n] = size(theta);
+x=-2:0.1:2;
+y=-4:0.1:4;
+for i=-2:0.1:2
+    for j=
